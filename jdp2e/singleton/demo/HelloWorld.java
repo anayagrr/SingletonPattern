@@ -1,4 +1,4 @@
-package practice;
+package jdp2e.singleton.demo;
 
 public class HelloWorld {
 
