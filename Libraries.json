@@ -1,0 +1,15 @@
+{
+	"libraries": [
+		{
+			"environment": "DDS",
+			"addLibraries": [
+				{
+					"library": "ADDLIBLE LIB(YYYLIBPR) POSITION(*FIRST)"
+				},
+				{
+					"library": "ADDLIBLE LIB(XXXLIBPR) POSITION(*FIRST)"
+				}
+			]
+		}		
+	]
+}
