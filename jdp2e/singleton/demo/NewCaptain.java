@@ -1,13 +1,13 @@
 package jdp2e.singleton.demo;
 
 // We make the class final to prevent that can't be extended 
-final class Captain {
+final class NewCaptain {
 	private static Captain captain;
 	
 	//We make the constructor private to prevent the use of "new"
-	private Captain() { }
+	private NewCaptain() { }
 	
-	public static synchronized Captain getCaptain() {
+	public static synchronized Captain getNewCaptain() {
 		//lazy initialization
 		if (captain == null) {
 			captain = new Captain();
