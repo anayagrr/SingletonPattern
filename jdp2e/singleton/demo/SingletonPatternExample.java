@@ -16,5 +16,10 @@ public class SingletonPatternExample {
         	System.out.println("captain1 and captain2 are same instance.");
 		}
 	}
+        Captain captain3 = Captain.getCaptain();
+        if (captain2 == captain3) {
+        	System.out.println("captain1 and captain2 are same instance.");
+		}
+	}
 
 }
